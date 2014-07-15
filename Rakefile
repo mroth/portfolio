@@ -24,3 +24,7 @@ desc "created resized images"
 multitask 'images:resize' => RESIZED_IMAGES
 
 # destroy the fuck out of the images with pngquant!
+# make this efficient with file tasks later, its fast enough for now to just rerun
+task 'images:pngquant' => 'images:resize' do
+  sh "find images/resized -name '*.png' -print0 | xargs -0 -P8 -n1 pngquant --force --ext .png --speed 1"
+end
