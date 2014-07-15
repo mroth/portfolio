@@ -22,19 +22,22 @@ title: matthew rothenberg - select projects
     md 293px (586px retina)
     lg 360px (720px retina)
   -->
-  <section class="images col-md-4 col-lg-4">
+  <div class="col-sm-4">
+  <section class="images">
     {% for image in post.images %}
     <img src="/images/resized/720px/{{ image }}" class="img-responsive img-thumbnail">
     {% endfor %}
   </section>
+  </div>
 
-  <section class="description col-md-6 col-lg-5">
+  <div class="col-sm-8">
+  <section class="description col-md-9 col-lg-8">
     <h3>{{ post.title }} <small>{{post.year}}</small></h3>
 
     {{ post.content }}
   </section>
 
-  <section class="metadata text-muted col-md-2 col-lg-3">
+  <section class="metadata text-muted col-md-3 col-lg-3">
 
     <section class="links">
       <!-- <a href="{{post.url}}">
@@ -59,5 +62,6 @@ title: matthew rothenberg - select projects
     </section>
 
   </section>
+  </div>
 </article>
 {% endfor %}
