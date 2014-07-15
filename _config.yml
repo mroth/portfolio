@@ -1,0 +1,5 @@
+timezone: America/New_York
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
