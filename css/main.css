@@ -2,6 +2,20 @@ article {
   margin-top: 5em;
 }
 
-.description h3 {
+article h3 {
   margin-top: 0;
+}
+
+article .metadata .year {
+  font-size: 1.2em;
+  /*font-style: italic;*/
+}
+
+article .metadata a:active, a:link, a:visited {
+  color: grey;
+  text-decoration: none
+}
+
+.img-thumbnail {
+  margin-bottom: 0.5em;
 }
