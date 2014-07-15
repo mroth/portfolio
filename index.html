@@ -40,13 +40,13 @@ title: matthew rothenberg - select projects
       <!-- <a href="{{post.url}}">
         <i class="fa fa-link"></i>
       </a> -->
-      {% if post.github %}
-      <a href="{{post.github}}">
+      {% if post.links.src %}
+      <a href="{{post.links.src}}">
         <i class="fa fa-git-square"></i>
       </a>
       {% endif %}
-      {% if post.web %}
-      <a href="{{post.web}}">
+      {% if post.links.web %}
+      <a href="{{post.links.web}}">
         <i class="fa fa-external-link"></i>
       </a>
       {% endif %}
@@ -61,15 +61,3 @@ title: matthew rothenberg - select projects
   </section>
 </article>
 {% endfor %}
-
-
-<!--
-<div id="home">
-  <h1>Selected projects</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
--->
