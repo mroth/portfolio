@@ -7,9 +7,7 @@ images:
   - swipeleft-collage.png
 
 links:
-  web: foo
-
-published: true
+  web: https://medium.com/@mroth/swipe-left-dfa947df0355
 ---
 
 I inserted drone strike "kill decision" imagery into the popular Tinder mobile dating app, forcing users to vote yes or no on the simulated fate of a subject.
