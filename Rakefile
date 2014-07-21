@@ -42,3 +42,18 @@ task 'images:optimize' => 'images:resize' do
   image_optim = ImageOptim.new(:pngout => false)
   image_optim.optimize_images!(Dir['images/projects/resized/**/*.*'])
 end
+
+desc "build the site with jekyll"
+task 'jekyll:build' do
+  sh "jekyll build"
+end
+
+desc "check links locally"
+task 'checklinks:local' => 'jekyll:build' do
+  sh "check-links '_site'"
+end
+
+desc "check links in prod"
+task 'checklinks:prod' do
+  sh "open 'http://validator.w3.org/checklink?uri=http%3A%2F%2Fportfolio.mroth.info&hide_type=all&depth=&check=Check'"
+end
