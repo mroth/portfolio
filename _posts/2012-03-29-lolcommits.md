@@ -8,7 +8,7 @@ images:
 
 links:
   src: https://github.com/mroth/lolcommits
-  web: http://mroth.github.io/lolcommits
+  web: http://mroth.github.io/lolcommits/
 ---
 
 "Selfies for software developers."

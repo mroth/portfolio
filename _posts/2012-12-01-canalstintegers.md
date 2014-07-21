@@ -10,7 +10,7 @@ additional_images:
   - canalstintegers-narrow-jlo.png
 
 links:
-  src: http://github.com/mroth/canalstintegers
+  src: https://github.com/mroth/canalstintegers
   web: http://canalstintegers.com
 ---
 
