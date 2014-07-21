@@ -40,6 +40,11 @@ article h3 {
     margin-top: 2em;
     margin-bottom: 2em;
   }
+
+  article section.description {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 article .metadata .year {
