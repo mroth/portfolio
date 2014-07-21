@@ -24,11 +24,17 @@ CLOBBER.include(RESIZED_IMAGES)
 desc "created resized images"
 multitask 'images:resize' => RESIZED_IMAGES
 
-# destroy the fuck out of the images with pngquant!
-# make this efficient with file tasks later, its fast enough for now to just rerun
-desc "pngquant appropriate resized images"
-task 'images:pngquant' => 'images:resize' do
-  sh "find images/projects/resized -name '*.png' -print0 | xargs -0 -P8 -n1 pngquant --force --ext .png --speed 1"
+# build a file list of just the resized pngs, since we need it for the annoying
+# manual pngquant tasks
+RESIZED_PNGS = FileList.new(RESIZED_IMAGES)
+RESIZED_PNGS.exclude("**/*.jpg")
+RESIZED_PNGS.exclude("**/*.gif")
+
+desc "safe pngquant appropriate resized images"
+multitask 'images:quantize' => 'images:resize' do
+  RESIZED_PNGS.each do |f|
+    sh "pngquant --skip-if-larger --force --ext .png --speed 1 #{f}"
+  end
 end
 
 desc "lossless optimization for all resized images"
