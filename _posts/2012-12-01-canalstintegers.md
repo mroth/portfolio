@@ -26,4 +26,4 @@ There was, of course, a fully functional REST API.
 
 [1]: http://brooklynintegers.com
 [2]: http://missionintegers.com
-[3]: http://londonintegers.com
+[3]: http://www.londonintegers.com
