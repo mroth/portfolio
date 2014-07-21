@@ -11,8 +11,8 @@ additional_images:
   - emojidoll-ss-frenchgirls.png
 
 links:
-  src: http://github.com/mroth/emojidoll
-  web: http://twitter.com/emojidoll
+  src: https://github.com/mroth/emojidoll
+  web: https://twitter.com/emojidoll
 ---
 
 Emojidoll is a bot that algorithmically assembles a humanoid figure out of emoji glyphs for any Twitter user who requests one.

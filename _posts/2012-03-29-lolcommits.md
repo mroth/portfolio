@@ -7,7 +7,7 @@ images:
   - lolcommits-4x3-grid.jpg
 
 links:
-  src: http://github.com/mroth/lolcommits
+  src: https://github.com/mroth/lolcommits
   web: http://mroth.github.io/lolcommits
 ---
 

@@ -12,7 +12,7 @@ additional_images:
   - emojitracker-artist.jpg
 
 links:
-  src: http://github.com/mroth/emojitrack
+  src: https://github.com/mroth/emojitrack
   web: http://www.emojitracker.com
 ---
 

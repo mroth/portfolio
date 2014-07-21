@@ -7,8 +7,8 @@ images:
   - askingfriend-sample1.png
 
 links:
-  src: http://github.com/mroth/forafriendbot
-  web: http://twitter.com/askingfriend
+  src: https://github.com/mroth/forafriendbot
+  web: https://twitter.com/askingfriend
 ---
 What do people want to know, but not want others to know they want to know?
 
