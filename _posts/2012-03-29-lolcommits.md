@@ -11,7 +11,7 @@ links:
   web: http://mroth.github.io/lolcommits
 ---
 
-"Selfies for software developers.""
+"Selfies for software developers."
 
 Lolcommits spoofed the nascent "selfie" meme and brought it to software developers by hooking into [git][1], the popular version control software.  Whenever a developer saves their work via `git commit`, lolcommits captures a photo at the exact same time via webcam, and superimposes the commit log over the image lolcat style.
 
