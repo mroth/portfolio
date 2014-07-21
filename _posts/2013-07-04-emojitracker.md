@@ -22,7 +22,7 @@ Emoji, colorful symbols on mobile phones that are used for text messaging, first
 
 Launched in July 2013, it has since analyzed [over 4.5 billion tweets][1].
 
-I adapted Emojitracker into a physical interactive installation which was featured at _Eyebeam Art and Technology Center_ in January 2014.  The projected installation naturally invited interaction, and visitors commonly pulled out their smartphones in order to influence the display, or engaged in debate about the relative popularity and meaning of different symbols.
+I adapted Emojitracker into a physical interactive installation which was featured at _Eyebeam Art and Technology Center_ in January 2014.  The projected installation encouraged interaction, and visitors commonly pulled out their smartphones in order to influence the display, or engaged in debate about the relative popularity and meaning of different symbols.
 
 Emojitracker has been written about in the _The New Yorker_, _New York Times_, _Wall Street Journal_, _Spiegel_, _Wired_, _Slate_, _Vice_, _Hyperallergic_, _Complex_, _The Verge_, _Gizmodo_, _Huffington Post_, _Buzzfeed_, and others.
 
