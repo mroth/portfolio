@@ -4,7 +4,7 @@ year: 2012
 tags: interactive software
 
 images:
-
+  - lolcommits-4x3-grid.jpg
 
 links:
   src: http://github.com/mroth/lolcommits
