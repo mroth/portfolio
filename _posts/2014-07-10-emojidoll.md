@@ -15,7 +15,9 @@ links:
   web: http://twitter.com/emojidoll
 ---
 
-Emojidoll is a bot that algorithmically assembles a humanoid figure out of emoji glyphs for any Twitter user who requests one.  Each one is unique and tied to the user's Twitter account, with over 15.6 million different possibilities.
+Emojidoll is a bot that algorithmically assembles a humanoid figure out of emoji glyphs for any Twitter user who requests one.
+
+Each doll is unique and tied to the requesting user's Twitter account, with over 15.6 million different possibilities.
 
 It was enthusiastically interacted with by tens of thousands of Twitter users, and even inspired some fan art.
 
