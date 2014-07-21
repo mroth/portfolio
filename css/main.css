@@ -15,6 +15,11 @@ article h3 {
 }
 
 @media all and (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+    line-height: 24px;
+  }
+
   article p {
     font-size: 16px;
     line-height: 1.5;
