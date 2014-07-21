@@ -1,6 +1,9 @@
+name: Matthew Rothenberg
 timezone: America/New_York
+
 gems:
   - jemoji
+
 exclude:
   - README.md
   - Gemfile
