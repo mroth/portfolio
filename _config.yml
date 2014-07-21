@@ -1,5 +1,7 @@
 name: Matthew Rothenberg
+
 timezone: America/New_York
+markdown: kramdown
 
 gems:
   - jemoji
