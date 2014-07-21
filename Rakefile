@@ -1,3 +1,4 @@
+require 'image_optim'
 require 'rake/clean'
 
 # include FileUtils
@@ -25,6 +26,13 @@ multitask 'images:resize' => RESIZED_IMAGES
 
 # destroy the fuck out of the images with pngquant!
 # make this efficient with file tasks later, its fast enough for now to just rerun
+desc "pngquant appropriate resized images"
 task 'images:pngquant' => 'images:resize' do
   sh "find images/projects/resized -name '*.png' -print0 | xargs -0 -P8 -n1 pngquant --force --ext .png --speed 1"
+end
+
+desc "lossless optimization for all resized images"
+task 'images:optimize' => 'images:resize' do
+  image_optim = ImageOptim.new(:pngout => false)
+  image_optim.optimize_images!(Dir['images/projects/resized/**/*.*'])
 end
