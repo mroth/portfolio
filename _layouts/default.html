@@ -17,14 +17,25 @@
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
-      <main class="container">
-        <h1>Matthew Rothenberg <small>{{ page.title }}</small></h1>
+      <div class="container">
+        <main>
+          <h1>Matthew Rothenberg <small>{{ page.title }}</small></h1>
 
-        <!-- Artist and hacker. Reformed tech-industry executive.
-        Most people still call me &ldquo;mroth.&rdquo; -->
+          <!-- Artist and hacker. Reformed tech-industry executive.
+          Most people still call me &ldquo;mroth.&rdquo; -->
 
-        {{content}}
-      </main>
+          {{content}}
+        </main>
+
+
+        <footer>
+          
+
+          {% include analytics.html %}
+        </footer>
+
+
+      </div>
 
     </body>
 </html>
