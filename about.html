@@ -1,0 +1,18 @@
+---
+layout: default
+title: About
+---
+<article class="row">
+
+  <div class="col-sm-4">
+    <section class="images">
+      <img src="/images/about/bio-glasses.jpg" style="-webkit-filter: grayscale(100%);" class="img-responsive">
+    </section>
+  </div>
+
+  <div class="col-sm-8">
+    {% capture bio %}{% include bio.md %}{% endcapture %}
+    {{ bio | markdownify }}
+  </div>
+
+</article>

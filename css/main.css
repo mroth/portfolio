@@ -60,3 +60,13 @@ article .metadata a:active, a:link, a:visited {
 .img-thumbnail {
   margin-bottom: 0.5em;
 }
+
+footer {
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+}
