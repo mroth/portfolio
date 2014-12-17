@@ -4,7 +4,7 @@ He has spent the entirety of his career---across academia, industry, and art---e
 
 His graduate work at [New York University][nyu] and [UC Berkeley][cal] focused on the history and emerging trends of how people use technology in social interactions.
 
-Following that he spent a decade in tech startups, including leading the popular
+Following that he spent a decade in tech startups, including leading product for the popular
 photo-sharing community [Flickr][flickr].
 
 His current work as an independent artist repurposes emerging “big data” technologies from the tech industry, which he employs to capture and recontextualize social media sources into new experiences. His work asserts that by mining the cultural debris of network communication we can gain powerful insight into the zeitgeist of the public sphere.
