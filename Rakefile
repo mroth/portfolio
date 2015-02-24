@@ -39,7 +39,7 @@ end
 
 desc "lossless optimization for all resized images"
 task 'images:optimize' => 'images:resize' do
-  image_optim = ImageOptim.new(:pngout => false)
+  image_optim = ImageOptim.new(:pngout => false, :svgo => false, :advpng => false)
   image_optim.optimize_images!(Dir['images/projects/resized/**/*.*'])
 end
 
