@@ -21,3 +21,5 @@ A tension was created between the desire to share and the desire to keep it to o
 
 The site was discovered by Google after 22 days on _Tue Feb 24 2015 21:01:14 GMT+0000 (UTC)_ and consequently instantly destroyed.  Prior to the automatic deletion it it had hundreds of visitors and dozens of contributions. No backups
 were kept.
+
+Posthumously featured in VICE, Boing Boing, PC World.
