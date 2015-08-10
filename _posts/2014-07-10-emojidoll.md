@@ -21,4 +21,4 @@ Each doll is unique and tied to the requesting user's Twitter account, with over
 
 It was enthusiastically interacted with by tens of thousands of Twitter users, and even inspired some fan art.
 
-Covered by _Time Magazine_, _Daily Dot_ and _Bustle_.
+Featured in _Time Magazine_, _Daily Dot_ and _Bustle_.
