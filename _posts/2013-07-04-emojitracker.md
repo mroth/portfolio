@@ -24,6 +24,6 @@ Launched in July 2013, it has since analyzed [over 10 billion tweets][1].
 
 I adapted Emojitracker into a physical interactive installation which was featured at _Eyebeam Art and Technology Center_ in January 2014.  The projected installation encouraged interaction, and visitors commonly pulled out their smartphones in order to influence the display, or engaged in debate about the relative popularity and meaning of different symbols.
 
-Emojitracker has been written about in the _The New Yorker_, _New York Times_, _Wall Street Journal_, _Spiegel_, _Wired_, _Slate_, _Vice_, _Hyperallergic_, _Details Magazine_, _Complex_, _The Verge_, _Gizmodo_, _Huffington Post_, _Buzzfeed_, and others.
+Emojitracker has been written about by _The New Yorker_, _New York Times_, _Wall Street Journal_, _Spiegel_, _Le Monde_, _Wired_, _Slate_, _Vice_, _Hyperallergic_, _Details Magazine_, _Complex_, _The Verge_, _Gizmodo_, _Buzzfeed_, and many others.
 
 [1]: http://emojitracker.com/api/stats
