@@ -11,3 +11,12 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /:year/:title
