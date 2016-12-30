@@ -15,7 +15,7 @@ links:
 
 Null Island is a place lost in-between the invisible boundaries of computer code.
 
-The distinction between _zero_ (the value of absolute nothing) and _null_ (the absence of value itself) and is a subtle concept for humans. For computers, this distinction is quite important, yet fraught with even more difficulty and peril—leading to an entire category of software bugs.
+The distinction between _zero_ (the value of absolute nothing) and _null_ (the absence of value itself) is a subtle concept for humans. For computers, this distinction is quite important, yet fraught with even more difficulty and peril—leading to an entire category of software bugs.
 
 As a result of this phenomena, most large databases of geotagged photos contain a cluster of "lost" user data at latitude-longitude coordinates _0.0°, 0.0°_ -- discoverable if plotted on a map a few hundred of miles off-shore in the Gulf of Guinea. Unbeknownst to the users of their systems, the periodic and rare occurrence of this bug may relocate their uploads there. Engineers working on GIS systems aware of this phenomena have affectionately termed this location "Null Island."
 
