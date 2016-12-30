@@ -20,7 +20,7 @@ Emojitracker is an experiment in realtime visualization of Twitter data.
 
 Emoji, colorful symbols on mobile phones that are used for text messaging, first emerged in Japan but have since grown to explosive global popularity.  Emojitracker utilizes realtime stream processing technology I developed in order to visualize the full volume of emoji usage on Twitter in realtime.  All 865 emoji symbols are presented in a grid, which instantaneously lights up when a symbol is used in a tweet, presenting hundreds of interactions per second.  The overall effect is to present both the overwhelming volume of symbolic communication occurring, and make visible the patterns in how we use this new form of communication.
 
-Launched in July 2013, it has since analyzed [over 10 billion tweets][1].
+Launched in July 2013, it has since analyzed [over 15 billion tweets][1].
 
 I adapted Emojitracker into a physical interactive installation which was featured at _Eyebeam Art and Technology Center_ in January 2014.  The projected installation encouraged interaction, and visitors commonly pulled out their smartphones in order to influence the display, or engaged in debate about the relative popularity and meaning of different symbols.
 
