@@ -15,7 +15,12 @@ title: Select Projects
 
   <div class="col-sm-8">
   <section class="description col-md-9 col-lg-8">
-    <h3>{{ post.title }} <small>{{post.year}}</small></h3>
+    <h3>
+      {{ post.title }}
+      <small>
+        <a href="{{post.url}}">{{post.year}}</a>
+      </small>
+    </h3>
 
     {{ post.content }}
   </section>
@@ -23,9 +28,6 @@ title: Select Projects
   <section class="metadata text-muted col-md-3 col-lg-3 hidden-xs">
 
     <section class="links">
-      <!-- <a href="{{post.url}}">
-        <i class="fa fa-link"></i>
-      </a> -->
       {% if post.links.src %}
       <a href="{{post.links.src}}">
         <i class="fa fa-git-square"></i>
