@@ -6,6 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noarchive">
 
+        {% if page.id %}
+        <meta property="og:url" content="{{ page.url | absolute_url }}" />
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:description" content="{{ page.excerpt | strip_html | strip }}" />
+        <meta property="og:image" content="{{ page.images | first | prepend: layout.image_base_path | absolute_url }}" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@mroth" />
+        <meta name="twitter:creator" content="@mroth" />
+        {% endif %}
+
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
         <!--[if lt IE 9]>

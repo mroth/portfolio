@@ -1,15 +1,16 @@
 ---
 layout: default
+image_base_path: /images/projects/resized/720px/
 ---
 
 <div class="row">
 
   <section class="images col-md-4 col-lg-6">
     {% for image in page.images %}
-    <img src="/images/projects/resized/720px/{{ image }}" class="img-responsive img-thumbnail">
+    <img src="{{ layout.image_base_path }}{{ image }}" class="img-responsive img-thumbnail">
     {% endfor %}
     {% for image in page.additional_images %}
-    <img src="/images/projects/resized/720px/{{ image }}" class="img-responsive img-thumbnail">
+    <img src="{{ layout.image_base_path }}{{ image }}" class="img-responsive img-thumbnail">
     {% endfor %}
   </section>
 
