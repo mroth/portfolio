@@ -1,8 +1,7 @@
 source "https://rubygems.org"
 
+gem 'github-pages', group: :jekyll_plugins
 group :development do
-  gem 'github-pages'
   gem 'image_optim'
-  gem 'link-checker'
   gem 'rake'
 end

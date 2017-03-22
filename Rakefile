@@ -48,10 +48,11 @@ task 'jekyll:build' do
   sh "jekyll build"
 end
 
-desc "check links locally"
-task 'checklinks:local' => 'jekyll:build' do
-  sh "check-links '_site'"
-end
+# Temporarily disabled because link-checker gem wants diff version of nokogiri than github-pages
+# desc "check links locally"
+# task 'checklinks:local' => 'jekyll:build' do
+#   sh "check-links '_site'"
+# end
 
 desc "check links in prod"
 task 'checklinks:prod' do
