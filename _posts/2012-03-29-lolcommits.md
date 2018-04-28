@@ -2,6 +2,7 @@
 title: LOLCommits
 year: 2012
 tags: interactive software
+published: false
 
 images:
   - lolcommits-4x3-grid.jpg

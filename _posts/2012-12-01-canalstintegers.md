@@ -2,6 +2,7 @@
 title: Canal St. Integers
 year: 2012
 tags: interactive web
+published: false
 
 images:
   - canalstintegers-narrow-gaga.png
