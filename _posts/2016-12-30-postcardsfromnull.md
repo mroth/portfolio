@@ -26,5 +26,3 @@ What sort of place is Null Island? Who has visited there, and what experiences h
 _Postcards From Null Island_ is autonomous and unmonitored software that continuously trawls Flickr and Instagram, looking for any new photos that have been uploaded from Null Island. Whenever they are located, a physical postcard is printed and mailed to me, so that I periodically receive mementos from people's unknown and undiscovered travels to this mythical land.
 
 For one year, these postcards arrived, and slowly began to tell a story.
-
-_Work in progress, currently seeking installation exhibition discussions._
